@@ -44,7 +44,7 @@ Alternatively, you can start from scratch.
 
 ## Brand New Projects
 
-Using [Stoplight Studio](../3.-design/a.overview.md), you can create and edit the contents of your projects and push changes back to the Git repository when you're done. 
+Using [Stoplight Studio](../docs/platform/ZG9jOjIwMTI3Nw-overview), you can create and edit the contents of your projects and push changes back to the Git repository when you're done. 
 
 ## Projects without Git
 
@@ -56,7 +56,7 @@ Stoplight CLI is a command-line tool, built as an NPM module, which can publish 
 2. Give this project a name, and click **Add Project**. This is going to create an empty project where you can then push data. 
 3. **Copy the command** on the screen. Next, navigate to the root folder of the project and **run this command**. This should push data to this project, and you can view it in Explorer. 
 
-Read more about [working with local projects](f.working-with-local-projects.md).
+Read more about [working with web projects](../docs/platform/ZG9jOjQ1NTQxMw-work-with-local-projects).
 
 You can add this command to your Continuous Integration server to update the contents whenever something changes.
 
@@ -66,7 +66,7 @@ You can add this command to your Continuous Integration server to update the con
 2. Click **Configure** in front of the Git provider you're looking to set up a custom configuration for. 
 3. Select **Customize integration settings** and add your desired configuration. Test it out by clicking `Test Settings`. Press `Save`. You're good to go! Happy [adding projects](#add-projects-from-Git-Provider).
 
-Read more about [configuring Git](configure-git/a.configuring-git.md).
+Read more about [configuring Git](../docs/platform/ZG9jOjQ0MzM2OA-overview).
 
 If you didn't find a Git provider of your choice or your project isn't on Git, follow the instructions in **Projects without Git** section. 
 
@@ -78,4 +78,4 @@ If you are using a "monorepo" approach, you might have one project, with a direc
 
 If you are using a "multirepo" approach, you might have one project for each API, and contain the source code and API description inside each project in any directory structure you like.
 
-Next, lets learn about [configuring projects](c.config.md). 
+Next, lets learn about [configuring projects](../docs/platform/ZG9jOjE4ODEyNA-configure-projects). 

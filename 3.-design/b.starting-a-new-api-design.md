@@ -4,7 +4,7 @@ tags: [Design]
 
 # Start a new API design
 
-Following the [API Design-first](./a.overview.md#API-Design-First) workflow, you are creating an API Descriptions before the API exists. This can be a bit daunting at first, but grab a whiteboard, notepad, or however you like to keep notes, and lets think about what this API is going to do.
+Following the [API Design-first](../docs/platform/ZG9jOjIwMTI3Nw-overview#api-design-first) workflow, you are creating an API Descriptions before the API exists. This can be a bit daunting at first, but grab a whiteboard, notepad, or however you like to keep notes, and lets think about what this API is going to do.
 
 ## Define the intent of the API
 
@@ -82,7 +82,7 @@ You need a *Flight* and a *Passenger* model for this API. You already found a *F
 
 - Start by creating a new model. Give it a name and define tags. Tags are used to group models in an API, which makes it easier for users to find them. 
 
-Before you save it, take a look at how naming and tagging is done in your organization in the Explorer. Make sure you're consistent with that. You can make rules for this by creating [custom style guides](../5.-governance/d.style-guides.md) to enforce it automatically.
+Before you save it, take a look at how naming and tagging is done in your organization in the Explorer. Make sure you're consistent with that. You can make rules for this by creating [custom style guides](../docs/platform/ZG9jOjU4NzU5OA-style-guides) to enforce it automatically.
 
 - Next, add a field to the model. Give it a name, a short description, and choose a type. You can either use a native type or refer to another model using `$ref`. 
 - Add validations to enforce constraints or formats on data like enums or DateTime. These validations provide the user with the required context and guardrails to reduce mistakes. 
@@ -112,7 +112,7 @@ You just designed your first endpoint. Preview how it would look to consumers. R
 
 While you're busy designing your APIs, Studio validates your designs on the fly. Keep a lookout on the side for warnings and errors. It would point out if you made any mistakes like a missing description or skipping a response. 
 
-By default, linting is done based on a predefined ruleset. Are you having trouble spotting inconsistencies in your design particular to your organization? [Create a custom style guide](../5.-governance/d.style-guides.md) to define rules that are specific to your organization. Some example rules can be:
+By default, linting is done based on a predefined ruleset. Are you having trouble spotting inconsistencies in your design particular to your organization? [Create a custom style guide](../docs/platform/ZG9jOjU4NzU5OA-style-guides) to define rules that are specific to your organization. Some example rules can be:
 
 - `Enforce` having at least one global security scheme
 - `Warn` against using an authentication except for OAuth
@@ -126,4 +126,4 @@ Documentation is a very important part of the API lifecycle and should start ear
 
 With your design in shape, share it with technical writers early so that they can start writing the docs. You can also share relevant articles from Explorer with tech writers. The Explorer will let all stakeholders stay up to date with how the API is coming along. 
 
-While Studio is good at helping designers write API descriptions, it is also built to support writing markdown documentation. [Get started with Documentation](../4.-documentation/a.overview.md)
+While Studio is good at helping designers write API descriptions, it is also built to support writing markdown documentation. [Get started with Documentation](../docs/platform/ZG9jOjU4NzU5MQ-overview)

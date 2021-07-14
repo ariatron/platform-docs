@@ -1,6 +1,6 @@
 # Sharing Documentation
 
-With your project added to Stoplight, you are now ready to share your API documentation. You can think of your [workspace](./../2.-workspaces/a.creating-a-workspace.md) as a developer hub, which can be viewed by either authenticated or anonymous users depending on your project visibility settings.
+With your project added to Stoplight, you are now ready to share your API documentation. You can think of your [workspace](./../docs/platform/ZG9jOjE4ODEyMg-create-a-workspace) as a developer hub, which can be viewed by either authenticated or anonymous users depending on your project visibility settings.
 
 ## Managing Project-Level Access
 
@@ -41,4 +41,4 @@ In the workspace settings, add a URL to your logo. It's recommended to use a log
 
 ## Sharing with Users
 
-With your landing page ready and projects set to the correct visibility, **share your workspace URL with users** to let them access your documentation. For internal or private projects, [invite users](../2.-workspaces/d.inviting-your-team.md) to the workspace directly. 
+With your landing page ready and projects set to the correct visibility, **share your workspace URL with users** to let them access your documentation. For internal or private projects, [invite users](../docs/platform/ZG9jOjE4ODEyNQ-invite-members) to the workspace directly. 

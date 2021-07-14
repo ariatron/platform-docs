@@ -20,7 +20,7 @@ A "noindex" tag will be automatically included on your Stoplight workspace domai
 
 ### Additional options
 
-Once your domain has been configured, you can optionally [enable analytics using Google Tag Manger](../4.-documentation/e.configure-analytics.md) and hide the "Sign in" button from the sidebar when your Workspace is loaded from your domain.
+Once your domain has been configured, you can optionally [enable analytics using Google Tag Manger](../docs/platform/ZG9jOjU0OTg0NDE-configure-analytics) and hide the "Sign in" button from the sidebar when your Workspace is loaded from your domain.
 
 ![Custom Domain Options](../assets/images/configure-google-tag-manager.png)
 

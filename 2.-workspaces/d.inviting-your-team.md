@@ -8,6 +8,10 @@ Once you have your **workspace** set up, the next step should be to invite your 
 
 You can invite up to 5 team members on the **Free** and **Starter** plan and more as you scale up. 
 
+## Allowed email domains
+
+The fastest way to onboard your teammates is by configuring an [Allowed email domain](../docs/platform/ZG9jOjE0OTg5MjQ1-allowed-email-domains) and sending them a link to your Workspace. Read more about allowed email domains [here](../docs/platform/ZG9jOjE0OTg5MjQ1-allowed-email-domains)!
+
 ## Inviting Team Members to your workspace
 
 1. From your dashboard, click on the **workspace name** on top left of the page. 
@@ -23,6 +27,6 @@ You can invite up to 5 team members on the **Free** and **Starter** plan and mor
 
 Since you would be inviting different stakeholders from different parts of the API Lifecycle, you can limit and restrict, who gets access to what. 
 
-**Note:**  Learn more about organizing your team and assigning roles here: [**Workspace Roles.**](k.workspace-roles.md) 
+**Note:**  Learn more about organizing your team and assigning roles here: [**Workspace Roles.**](../docs/platform/ZG9jOjg1NjcyNzA-workspace-roles) 
 
 Once you send an invite, your invitation will move to the pending invites section, and your team member will be sent an invite over email. When they click **Accept,** they will be added to your workspace. 

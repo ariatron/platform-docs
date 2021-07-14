@@ -22,7 +22,7 @@ The quickest and recommended way to get projects into Stoplight is to pull them 
 
 Once the repository data has been analyzed, your workspace landing page should now contain projects populated with data.
 
-Next, lets [share this project](share-documentation-quickstart.md). 
+Next, lets [share this project](../docs/platform/ZG9jOjE4ODEyMQ-share-documentation). 
 
 ## Creating a Blank Project
 
@@ -44,6 +44,6 @@ Once you're done making changes, you can click the "Push to Workspace" button to
 
 ### Share
 
-Finally, click the **Share** button in the top right to [share this project](share-documentation-quickstart.md) with your teammates. 
+Finally, click the **Share** button in the top right to [share this project](../docs/platform/ZG9jOjE4ODEyMQ-share-documentation) with your teammates. 
 
 ![share](../assets/images/studio-share-button.png)

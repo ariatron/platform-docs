@@ -12,19 +12,19 @@ Webhooks are HTTP requests triggered by one server to let another server know so
 
 Any workspaces that are connected with the default Stoplight Git integrations will have webhooks set up on the project automatically. Whenever somebody pushes a change to any branch, the Git server receives the push, and sends Stoplight a webhook. If the branch has Publishing enabled we'll automatically update documentation, mock servers, explorer, etc. usually within a few seconds.
 
-If you have [connected Git providers](configure-git/a.configuring-git.md) with your own hosted Git servers or your own credentials then you will need to set those webhooks up yourself.
+If you have [connected Git providers](configure-git/../docs/platform/ZG9jOjQ0MzM2OA-overview) with your own hosted Git servers or your own credentials then you will need to set those webhooks up yourself.
 
 Either way, any incoming Webhooks will show up in the Automation tab of your project under Webhook Events.
 
 ![The Webhook Events header on the automation tab showing history of two recent "events", both completed quickly and successfully.](../assets/images/webhook-events.png)
 
-If changes are not publishing, you can look at Webhook Events to debug the problem. Maybe it's a [firewall](../c.troubleshooting.md#how-do-i-allow-stoplight-to-access-an-internal-git-provider) issue, or webhooks are not being triggered at all.
+If changes are not publishing, you can look at Webhook Events to debug the problem. Maybe it's a [firewall](../docs/platform/ZG9jOjM5OTEzOA-faq#how-do-i-allow-stoplight-to-access-an-internal-git-provider) issue, or webhooks are not being triggered at all.
 
 ## Continuous Integration
 
 Stoplight CLI is a command-line tool, available as [an NPM module](https://www.npmjs.com/package/@stoplight/cli) (requires nodeJS v12 or greater), which can publish changes to Stoplight, and have them show up in Explorer just like any other project. They won't be editable in Studio, but the content will be available to read and search like anything else.
 
-Stoplight CLI can be used to [enable local projects](./f.working-with-local-projects.md) which do not use Git, but can also be used to publish projects from a continuous integration server instead of utilizing webhooks.
+Stoplight CLI can be used to [enable local projects](../docs/platform/ZG9jOjQ1NTQxMw-work-with-local-projects) which do not use Git, but can also be used to publish projects from a continuous integration server instead of utilizing webhooks.
 
 Why? Maybe you're using an annotation framework to describe your APIs inside your existing source code and you'd like to export those in order to publish documentation. You can do that by running whatever the CLI command is for exporting from that framework, then running the push command to send the contents to Stoplight.
 

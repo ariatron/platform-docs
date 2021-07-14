@@ -12,7 +12,7 @@ When multiple developers are working on the API, and when multiple teams are all
 
 When creating a new API from scratch, the first step to design, before you even open up Studio, is interviewing potential consumers and finding out their needs. Getting as many involved as possible and aggregating results to make the most popular use cases as easy and efficient as possible will help you make a good API. 
 
-Whatever designs, [mock-powered prototypes](d.setting-up-a-mock-server.md), or code-powered pilot/alpha APIs come from this can be reviewed. Much of this will happen outside of Stoplight, through Slack or your organizations general communication channels.
+Whatever designs, [mock-powered prototypes](../docs/platform/ZG9jOjIwMTI4MA-working-with-mock-servers), or code-powered pilot/alpha APIs come from this can be reviewed. Much of this will happen outside of Stoplight, through Slack or your organizations general communication channels.
 
 After an API has launched, any new functionality and changes can also be reviewed. These will feel very similar to code reviews.
 
@@ -50,7 +50,7 @@ API consumers generally don't enjoy guessing subtle differences between various 
 - If one API uses JSON:API and another uses Siren, maybe that's something to call out. 
 - If one uses camelCase for properties and another uses snake_case, maybe that could be mentioned.
 
-Spectral can help with a lot of this, allowing you to [create style guides for workspaces](../5.-governance/d.style-guides.md). This will catch a lot of trouble sooner, but humans can still check the results after for anything which doesn't have a Spectral rule.
+Spectral can help with a lot of this, allowing you to [create style guides for workspaces](../docs/platform/ZG9jOjU4NzU5OA-style-guides). This will catch a lot of trouble sooner, but humans can still check the results after for anything which doesn't have a Spectral rule.
 
 **Is this easy to implement?**
 
@@ -62,7 +62,7 @@ Most developers are used to changing to source code in version control systems v
 
 ### 1. Open a Project in Studio
 
-Whether you're [creating a new project](../2.-workspaces/a.creating-a-workspace.md) or changing an existing one, pick a project to open in Studio.
+Whether you're [creating a new project](../docs/platform/ZG9jOjE4ODEyMg-creating-a-workspace) or changing an existing one, pick a project to open in Studio.
 
 ### 2. Create a new Branch
 
@@ -87,7 +87,7 @@ How you create a pull request depends on where the project's repository is hoste
 
 ### 5. Link to Branch Documentation
 
-If [webhooks are enabled](../2.-workspaces/g.automating-publishing.md) the branch should appear in the documentation almost immediately. The branch name will appear in the versions dropdown, probably under "Unpublished Branches".
+If [webhooks are enabled](../docs/platform/ZG9jOjQ2NDU5Mw-branch-management) the branch should appear in the documentation almost immediately. The branch name will appear in the versions dropdown, probably under "Unpublished Branches".
 
 ![The version dropdown in documentation showing various unpublished branches](../assets/images/docs-selecting-branches.png)
 

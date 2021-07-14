@@ -12,7 +12,7 @@ Regardless of the model, there is always a default branch. Branches could be nam
 
 > This feature is available on the Stoplight **Starter** plan, and above.
 
-The [publishing process](g.automating-publishing.md) is automatically enabled for the default branch. When the default branch is published it updates all sorts of things: Explorer, Documentation, Mock Servers, and Design Library. 
+The [publishing process](../docs/platform/ZG9jOjQ1NTQxNA-publishing) is automatically enabled for the default branch. When the default branch is published it updates all sorts of things: Explorer, Documentation, Mock Servers, and Design Library. 
 
 You can enable more branches for publishing than just the default branch.
 
@@ -27,7 +27,7 @@ There are two types of branches shown in the versions dropdown:
 - **Published branches** (called "Versions") are viewable to everyone including Guest and Viewer roles.
 - **Unpublished branches** are only viewable to users with direct access to the project.
 
-One use-case for unpublished branches is checking how documentation looks in a Pull Request before merging it. If you do [API Design Reviews](../3.-design/c.reviewing-your-api-design.md), unpublished branches would be part of that process.
+One use-case for unpublished branches is checking how documentation looks in a Pull Request before merging it. If you do [API Design Reviews](../docs/platform/ZG9jOjIwMTI3OQ-review-api-designs), unpublished branches would be part of that process.
 
 If you don't like the branch names as they're displayed, you can give them a display name within Stoplight.
 
@@ -89,7 +89,7 @@ git push origin master:main
 git push origin :master
 ```
 
-6. If [webhooks](./g.automating-publishing.md) have been setup then this branch has already been automatically removed from Stoplight. If webhooks are not enabled, you will need to delete the branch from the list by clicking on the cog and clicking the "Remove from Stoplight" button.
+6. If [webhooks](../docs/platform/ZG9jOjQ1NTQxNA-publishing) have been setup then this branch has already been automatically removed from Stoplight. If webhooks are not enabled, you will need to delete the branch from the list by clicking on the cog and clicking the "Remove from Stoplight" button.
 
 ## Track Branches
 

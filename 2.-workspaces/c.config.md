@@ -94,4 +94,4 @@ To exclude the test files and make it clear which other files are which, the fol
 }
 ```
 
-Next, lets [invite team members](./d.inviting-your-team.md) to these excellently configured projects. 
+Next, lets [invite team members](../docs/platform/ZG9jOjg1NjcyNzE-manage-project-access#grant-project-permissions) to these excellently configured projects. 

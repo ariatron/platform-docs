@@ -15,7 +15,7 @@ We support the following Auth/Single Sign-On (SSO) providers:
 - Gitea
 - Azure Devops
 
-To configure popular Git providers as auth providers follow [this guide](configure-git/a.configuring-git.md).
+To configure popular Git providers as auth providers follow [this guide](../docs/platform/ZG9jOjQ0MzM2OA-configuring-git).
 
 ## LDAP
 
@@ -26,7 +26,7 @@ You can use a Lightweight Directory Access Protocol (LDAP) authentication server
 1. Navigate to the Integrations section in your Stoplight workspace settings. 
 2. Click **Install/Configure** beside LDAP. 
 3. Provide the following information:
- - **URL**: The LDAP host, e.g. **ldap://ldap.example.com**. If the hostname is behind a firewall, you may need to [add our IPs to your allowlist](../c.troubleshooting.md#how-do-i-allow-stoplight-to-access-an-internal-git-provider).
+ - **URL**: The LDAP host, e.g. **ldap://ldap.example.com**. If the hostname is behind a firewall, you may need to [add our IPs to your allowlist](../docs/platform/ZG9jOjM5OTEzOA-faq#how-do-i-allow-stoplight-to-access-an-internal-git-provider).
  - **Bind DN**: The LDAP user that performs user lookups to authenticate other users when they sign in. This is typically a service account created specifically for third-party integrations. Use a fully qualified name, such as **cn=Administrator,cn=Users,dc=Example,dc=com**.
  - **Bind Credentials**: The password for the domain search user.
  - **Search Base**: The fully qualified Distinguished Name (DN) of an LDAP subtree you want to search for users and groups. You can add as many as you like; however, each group must be defined in the same domain base as the users that belong to it. e.g. **dc=Example,dc=com**.
@@ -93,7 +93,7 @@ Which will open a dialog to configure the SAML settings for the integration:
 ![](../assets/images/saml-configuration.png)
 
 > If your SAML IdP is behind a firewall, you may need to [add our IPs to your
-> allowlist](../c.troubleshooting.md#how-do-i-allow-stoplight-to-access-an-internal-git-provider).
+> allowlist](../docs/platform/ZG9jOjM5OTEzOA-faq#how-do-i-allow-stoplight-to-access-an-internal-git-provider).
 
 ### Okta
 

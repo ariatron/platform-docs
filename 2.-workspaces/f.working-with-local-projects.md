@@ -18,7 +18,7 @@ Stoplight CLI is a command-line tool, available as [an NPM module](https://www.n
 
 Next, navigate to the root folder of the local project and **run this command**. This should analyze the project containing OpenAPI files, JSON Schemas, and Markdown documentation, and push data to Stoplight, and you can view it in Explorer. 
 
-You can add this command to a [Continuous Integration server](g.automating-publishing.md#continous-integration) to update the contents whenever something changes.
+You can add this command to a [Continuous Integration server](../docs/platform/ZG9jOjQ1NTQxNA-publishing#continuous-integration)) to update the contents whenever something changes.
 
 ### Edit Local Files
 
@@ -26,4 +26,4 @@ You can add this command to a [Continuous Integration server](g.automating-publi
 
 2. Open the project in Studio Desktop and edit using the form or code editors. Read the [Studio documentation](https://meta.stoplight.io/docs/studio/) for more specifics.
 
-Once done editing, you can push the files using the CLI, or automate publishing in [continuous integration](g.automating-publishing.md#continous-integration).
+Once done editing, you can push the files using the CLI, or automate publishing in [continuous integration](../docs/platform/ZG9jOjQ1NTQxNA-publishing#continuous-integration).

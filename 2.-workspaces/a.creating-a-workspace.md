@@ -18,4 +18,4 @@ To create a new workspace, navigate to the [Stoplight homepage](https://stopligh
 
 Once you have registered your workspace, you will be prompted to confirm your email address using a 6-digit verification code.
 
-Now that your workspace is ready, start collaborating by [adding your first project](b.adding-projects.md) and [inviting users](d.inviting-your-team.md).
+Now that your workspace is ready, start collaborating by [adding your first project](../docs/platform/ZG9jOjE4ODEyMw-add-projects) and [inviting users](../docs/platform/ZG9jOjE4ODEyNQ-invite-members).
